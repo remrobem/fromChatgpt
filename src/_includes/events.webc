@@ -1,4 +1,10 @@
-<section>
+<style>
+  .event {
+    background-color: yellow;
+  }
+</style>
+
+<section class="event">
   <h2>Upcoming Events</h2>
   {% for event in collections.events %}
   <div>
